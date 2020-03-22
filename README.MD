@@ -1,30 +1,22 @@
-# CodeLab-React-Fundamentals
+webpack 과 webpack-dev-server 설치
+폴더 생성
+npm init 으로 프로젝트 시작
+npm install 로 react react-dom 설치
+개발의존모듈로 babel-core, babel-loader, babel-preset-es2015 babel-preset-react babel-loader@7 설치
+개발모듈 npm install --save-dev webpack webpack-dev-server react-hot-loader 설치
+npm install webpack-cli -D 설치
+webpack.config.js 생성
+public 디렉토리에 index.html 생성
+src 디렉토리에 components 디렉토리 생성
+components 디렉토리에 App.js 생성
+src 디렉토리에 index.js 생성
+package.json에 개발 프로젝트 생성 코드 추가     "dev-server": "webpack-dev-server"
 
-## About
-
-React 기본 작업 환경
-- babel 을 통한 ES6 변환
-- webpack-dev-server 사용
-- react-hot-loader 를 통한 Hot Module Reload 사용
-
-React CodeLab 에서 작업환경 설정을 할 때 사용 된 코드 입니다.
-
-
-## 설치하기
-
-```sh
-git clone https://github.com/velopert/react-codelab-fundamentals.git
-npm install -g webpack webpack-dev-server
-npm install
-# npm install 과정이 오래 걸린다면, 다음과 같이 node_modules.zip 을 다운로드 받아서 압축을 해제하세요:
-wget https://github.com/velopert/react-codelab-fundamentals/releases/download/1.0/node_modules.zip
-unzip node_modules.zip -d node_modules
-```
-
-## 실행하기
-
-```
-npm run dev-server
-```
-
-서버는 포트 4000 으로 실행됩니다. 변경은 webpack.config.js 에서 할 수 있습니다.
+react-hot-loader 용도 => 코드변경을 실시간 적용하면서 state값을 유지하도록 함
+react-hot-loader 적용 방법
+강의의 방법이 버전업이 되면서 변경됨
+webpack.config.js에서 
+babel-loader에 플러그인으로 적용
+plugins: ["react-hot-loader/babel"]
+index.js에 ReactDOM.render 내용도 변경됨
+https://gist.github.com/velopert/c5b1f5f748d9aa8b78f729a321682230 참조
