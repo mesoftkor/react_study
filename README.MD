@@ -1,5 +1,4 @@
 webpack 과 webpack-dev-server 설치
-
 폴더 생성
 npm init 으로 프로젝트 시작
 npm install 로 react react-dom 설치
