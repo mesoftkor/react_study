@@ -9,11 +9,12 @@ webpack 과 webpack-dev-server 설치
 
 npm init 으로 프로젝트 시작
 
-npm install 로 react react-dom 설치
+개발모듈 설치
+npm install react react-dom 설치
 
-개발의존모듈로 babel-core, babel-loader, babel-preset-es2015 babel-preset-react babel-loader@7 설치
+npm install babel-core, babel-loader, babel-preset-es2015 babel-preset-react babel-loader@7 설치
 
-개발모듈 npm install --save-dev webpack webpack-dev-server react-hot-loader 설치
+npm install --save-dev webpack webpack-dev-server react-hot-loader 설치
 
 npm install webpack-cli -D 설치
 
