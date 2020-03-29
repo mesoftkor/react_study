@@ -49,4 +49,6 @@ https://gist.github.com/velopert/c5b1f5f748d9aa8b78f729a321682230 참조
 react 서버 실행
 D:\workspace\react>npm run dev-server
 
-
+Module build failed: TypeError: fileSystem.statSync is not a function 에러 발생시...
+babel-loader를 다운그레이드하여 
+npm add babel-loader@7.1.1 --dev
