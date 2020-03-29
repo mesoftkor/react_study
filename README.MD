@@ -1,3 +1,8 @@
+github와 vscode 연결
+
+node.js 
+https://nodejs.org/en/
+
 webpack 과 webpack-dev-server 설치
 
 폴더 생성
